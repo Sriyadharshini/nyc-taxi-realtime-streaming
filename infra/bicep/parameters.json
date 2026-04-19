@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "env": {
+      "value": "dev"
+    },
+    "suffix": {
+      "value": "sri02"
+    },
+    "githubAccountName": {
+      "value": "Sriyadharshini"
+    },
+    "githubRepoName": {
+      "value": "nyc-taxi-realtime-streaming"
+    },
+    "githubBranch": {
+      "value": "main"
+    },
+    "sqlAdminUsername": {
+      "value": "sqladmin"
+    },
+    "sqlAdminPassword": {
+      "value": "REPLACE_WITH_STRONG_PASSWORD"
+    },
+    "eventHubPartitionCount": {
+      "value": 2
+    },
+    "eventHubRetentionDays": {
+      "value": 1
+    }
+  }
+}
