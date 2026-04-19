@@ -21,7 +21,7 @@
       "value": "sqladmin"
     },
     "sqlAdminPassword": {
-      "value": "REPLACE_WITH_STRONG_PASSWORD"
+      "value": "Str3am@Sql#2026"
     },
     "eventHubPartitionCount": {
       "value": 2
